@@ -1,0 +1,15 @@
+{
+  "name": "flexbox",
+  "version": "1.0.0",
+  "description": "Here is the Final FlexBox theme",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass sass/main.scss css/main.css -w"
+  },
+  "author": "M Zohaib",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.32.12"
+  },
+  "dependencies": {}
+}
