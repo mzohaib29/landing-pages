@@ -1,0 +1,13 @@
+body{
+    background-color: burlywood;
+}
+fieldset{
+    height: 500px;
+    width: 300px;
+    background-color: rgb(158, 187, 224);
+    /* display: flex; */
+    font-weight: 900;
+    font-size: larger;
+    margin: 50px auto;
+
+}
