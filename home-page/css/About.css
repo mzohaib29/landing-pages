@@ -1,0 +1,247 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+.nav{
+    width: 100%;
+     display: flex;
+     justify-content: space-between;
+     /* border: 2px solid red; */
+     background-color: rgb(42, 42, 129);
+     /* text-decoration: none; */
+}
+.nav .logo{
+    padding-left: 100px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+}
+.nav .menu{
+    margin: auto 0;
+    padding-right: 100px;
+    font-weight: 600;
+}
+.nav .menu a{
+    /* padding: 20px; */
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+}
+
+
+
+.header{
+    width: 100%;
+    height: 200px;
+    /* border: 2px solid black; */
+    background-color: rgb(42, 42, 129);
+    display: flex;
+    flex-direction: column-reverse;
+}
+.header h1{
+    color: white;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    font-size: 50px;
+
+}
+
+
+.project{
+    width: 100%;
+    /* border: 2px solid red; */
+}
+.project .wrapper{
+    display: flex;
+}
+.project .wrapper .wrap-text{
+    width: 80%;
+    height: 300px;
+    /* border: 2px solid black; */
+    margin-top: 50px;
+    padding: 0 50px; 
+    margin-left: 50px; 
+    font-weight: 600;  
+    word-spacing: 2px;
+}
+.project .wrapper .wrap-text .wrapper1{
+    margin: 50px auto;
+}
+.project .wrapper .wrap-img{
+   height: 200px;
+   width: 30%;
+   margin-top: 100px;
+   margin-right: 100px;
+   background-image: url(../img/image.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+
+
+.h_1{
+    width: 100%;
+    /* border: 2px solid red; */
+    padding-top: 50px;
+}
+.h_1 h1{
+    font-size: 40px;
+    margin-top: 70px;
+    text-align: center;  
+    letter-spacing: 5px; 
+}
+
+
+
+.services{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+}
+.services .ui-design{
+    text-align: center;
+    padding-top: 20px;
+}
+.services .ui-design h1,.services .ui-design p{
+    padding-left: 150px;
+}
+.services .ui-design .fa-sketch{
+    font-size: 50px;
+    padding-left: 150px;
+}
+.services .css3{
+    text-align: center;
+    padding-top: 20px;
+}
+.services .css3 h1,.services .css3 p{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.services .css3 .fa-css3-alt{
+    font-size: 50px;
+}
+.services .javascript{
+    text-align: center;
+    padding-top: 20px;
+}
+.services .javascript h1,.services .javascript p{
+    padding-left: 10px;
+    padding-right: 150px;
+}
+.services .javascript .fa-js{
+    font-size: 50px;
+    padding-right: 150px;
+}
+
+
+
+.h_2{
+    width: 100%;
+    /* border: 2px solid red; */
+    padding-top: 50px;
+}
+.h_2 h1{
+    font-size: 50px;
+    margin-top: 70px;
+    text-align: center;  
+    letter-spacing: 10px; 
+}
+
+
+
+.services_1{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+}
+.services_1 .ui-design_1{
+    text-align: center;
+    padding-top: 20px;
+    
+}
+.services_1 .ui-design_1 h1,.services_1 .ui-design_1 p{
+    padding-left: 100px;
+}
+.services_1 .ui-design_1 .fa-user-tie{
+    font-size: 50px;
+    padding-left: 100px;
+}
+.services_1 .css3_1{
+    text-align: center;
+    padding-top: 20px;
+    background-color: rgb(121, 121, 241);
+}
+.services_1 .css3_1 h1,.services_1 .css3_1 p{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.services_1 .css3_1 .fa-user-tie{
+    font-size: 50px;
+    /* padding-left: 100px; */
+}
+.services_1 .javascript_1{
+    text-align: center;
+    padding-top: 20px;
+}
+.services_1 .javascript_1 h1,.services_1 .javascript_1 p{
+    padding-left: 0;
+    padding-right: 100px;
+}
+.services_1 .javascript_1 .fa-user-tie{
+    font-size: 50px;
+    padding-right: 100px;
+}
+
+
+
+
+.simple-text{
+    width: 100%;
+    /* border: 2px solid red; */
+    margin-top: 100px;
+    text-align: center;
+}
+.simple-text h1{
+    font-size: 35px;
+
+}
+.simple-text p{
+    padding: 0 200px;
+    font-weight: 600;
+}
+.simple-text button{
+    margin-top: 30px;
+    padding: 15px 30px;
+    background-color: rgb(42, 42, 129);
+    color: white;
+}
+
+
+
+
+.footer{
+    /* border: 3px solid red; */
+    margin-top: 100px;
+    padding-bottom: 20px;
+    text-align: center;
+    /* padding: 5px 0; */
+    background-color: black;
+}
+.footer h1{
+    font-size: 35px;
+    font-weight: bolder;
+    color: white;
+
+}
+.footer i{
+    font-size: 30px;
+    color: rgb(42, 42, 129);
+    padding: 10px;
+}
+.footer i:hover{
+    color: whitesmoke;
+    font-weight: 40px;
+}

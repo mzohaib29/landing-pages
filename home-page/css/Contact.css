@@ -1,0 +1,134 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+.nav{
+    width: 100%;
+     display: flex;
+     justify-content: space-between;
+     /* border: 2px solid red; */
+     background-color: rgb(42, 42, 129);
+     /* text-decoration: none; */
+}
+.nav .logo{
+    padding-left: 100px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+}
+.nav .menu{
+    margin: auto 0;
+    padding-right: 100px;
+    font-weight: 600;
+}
+.nav .menu a{
+    /* padding: 20px; */
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+}
+
+
+
+.header{
+    width: 100%;
+    height: 200px;
+    /* border: 2px solid black; */
+    background-color: rgb(42, 42, 129);
+    display: flex;
+    flex-direction: column-reverse;
+}
+.header h1{
+    color: white;
+    padding-left: 50px;
+    padding-bottom: 20px;
+    font-size: 50px;
+
+}
+
+
+
+.contact-form{
+    width: 100%;
+    height: 500px;
+    /* border: 2px solid red; */
+    /* padding: 20px; */
+    text-align: center;
+    margin-top: 100px;
+
+}
+.contact-form .inputs .text{
+    margin: 0 15px;
+   /* padding: 10px 60px; */
+    padding-right: 160px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.contact-form .inputs .email{
+    margin: 0 15px;
+    /* padding: 10px 60px; */
+    padding-right: 160px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.contact-form .para{
+    width: 700px;
+    height: 200px;
+    margin-top: 20px;
+}
+.contact-form button{
+    margin-top: 30px;
+    padding: 10px 100px;
+    background-color: rgb(42, 42, 129);
+    color: white;
+    font-weight: 500;
+}
+
+
+
+.simple-text{
+    width: 100%;
+    /* border: 2px solid red; */
+    /* margin-top: 100px; */
+    text-align: center;
+}
+.simple-text h1{
+    font-size: 35px;
+
+}
+.simple-text p{
+    padding: 0 200px;
+    font-weight: 600;
+}
+.simple-text button{
+    margin-top: 30px;
+    padding: 15px 30px;
+    background-color: rgb(42, 42, 129);
+    color: white;
+}
+
+
+
+
+.footer{
+    /* border: 3px solid red; */
+    margin-top: 100px;
+    padding-bottom: 20px;
+    text-align: center;
+    /* padding: 5px 0; */
+    background-color: black;
+}
+.footer h1{
+    font-size: 35px;
+    font-weight: bolder;
+    color: white;
+
+}
+.footer i{
+    font-size: 30px;
+    color: rgb(42, 42, 129);
+    padding: 10px;
+}
+.footer i:hover{
+    color: whitesmoke;
+    font-weight: 40px;
+}

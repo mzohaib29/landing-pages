@@ -1,0 +1,357 @@
+* {
+    /* margin: 0; */
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+.nav{
+    width: 100%;
+     display: flex;
+     justify-content: space-between;
+     /* border: 2px solid red; */
+     background-color: rgb(42, 42, 129);
+     /* text-decoration: none; */
+}
+.nav .logo{
+    padding-left: 100px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+}
+.nav .menu{
+    margin: auto 0;
+    padding-right: 100px;
+    font-weight: 600;
+}
+.nav .menu a{
+    /* padding: 20px; */
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+}
+
+
+
+
+
+.header{
+    width: 100%;
+    min-height: 500px;
+    /* border: 2px solid black; */
+    background-color: rgb(42, 42, 129);
+    overflow: auto;
+}
+.header .text{
+    /* border: 2px solid red; */
+   text-align: center;
+   margin-top: 100px;
+}
+.header .text h1{
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+}
+.header .text p{
+    font-size: 20px;
+    padding: 0 100px;
+    color: white;
+    /* font-weight: 500; */
+}
+.header .text button{
+    padding: 10px 40px;
+    font-weight: bolder;
+}
+
+
+.para{
+    width: 100%;
+    /* border: 2px solid red; */
+    text-align: center;
+    padding: 100px;
+    margin: 0 auto;
+    overflow-x: hidden;
+    background-color: whitesmoke;
+}
+.para a{
+   color: blue;
+}
+
+
+
+
+
+.h_1{
+    width: 100%;
+    /* border: 2px solid red; */
+}
+.h_1 h1{
+    font-size: 60px;
+    margin-top: 70px;
+    text-align: center;  
+    letter-spacing: 10px; 
+}
+
+
+
+/* about section  */
+
+.about-one{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+}
+.about-one .html5{
+    text-align: center;
+}
+.about-one .html5 h1,.about-one .html5 p{
+    padding:0px 100px;
+}
+.about-one .html5 .fa-html5{
+    font-size: 50px;
+    color: orange;
+}
+.about-one .css3{
+    text-align: center;
+}
+.about-one .css3 h1,.about-one .css3 p{
+    padding:0 100px;
+}
+.about-one .css3 .fa-css3-alt{
+    font-size: 50px;
+    color: blue;
+}
+.about-one .javascript{
+    text-align: center;
+}
+.about-one .javascript h1,.about-one .javascript p{
+    padding:0 100px;
+}
+.about-one .javascript .fa-js{
+    font-size: 50px;
+}
+
+
+
+.about-two{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    /* border: 2px solid black; */
+    justify-content: space-between;
+}
+.about-two .reactjs{
+    text-align: center;
+}
+.about-two .reactjs h1,.about-two .reactjs p{
+    padding:0px 100px;
+}
+.about-two .reactjs .fa-react{
+    font-size: 50px;
+}
+.about-two .sass{
+    text-align: center;
+}
+.about-two .sass h1,.about-two .sass p{
+    padding:0 100px;
+}
+.about-two .sass .fa-sass{
+    font-size: 50px;
+}
+.about-two .wordpress{
+    text-align: center;
+}
+.about-two .wordpress h1,.about-two .wordpress p{
+    padding:0 100px;
+}
+.about-two .wordpress .fa-wordpress{
+    font-size: 50px;
+}
+
+
+
+.header-main{
+    width: 100%;
+    min-height: 400px;
+    /* border: 2px solid red; */
+    margin-top: 50px;
+    text-align: center;
+    background-color: rgb(42, 42, 129);
+}
+.header-main .header-main-text{
+    /* border: 2px solid black; */
+    padding-top: 100px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.header-main .header-main-text button{
+    /* margin-top: 0; */
+    padding: 12px 50px;
+    font-weight: bolder;
+}
+
+
+
+
+.services{
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+}
+.services .ui-design{
+    text-align: center;
+    padding-top: 50px;
+}
+.services .ui-design h1,.services .ui-design p{
+    padding:0px 100px;
+}
+.services .ui-design .fa-sketch{
+    font-size: 50px;
+}
+.services .css3{
+    text-align: center;
+    background-color: rgb(42, 42, 129);
+    color: whitesmoke;
+    padding-top: 50px;
+}
+.services .css3 h1,.services .css3 p{
+    padding:0 100px;
+}
+.services .css3 .fa-css3-alt{
+    font-size: 50px;
+}
+.services .javascript{
+    text-align: center;
+    padding-top: 50px;
+}
+.services .javascript h1,.services .javascript p{
+    padding:0 100px;
+}
+.services .javascript .fa-js{
+    font-size: 50px;
+}
+
+
+.testimonials{
+    width: 100%;
+    height: 600px;
+    /* border: 2px solid red; */
+    text-align: center;
+    background-color: rgb(42, 42, 129);
+    margin-top: 80px;
+}
+.testimonials .text{
+    /* border: 2px solid black; */
+    /* font-size: 30px; */
+    padding-top: 100px;
+    color: whitesmoke;
+}
+.testimonials .text h1{
+    font-size: 70px;
+    font-weight: bold;
+}
+.testimonials .text p{
+    /* font-size: 20px; */
+    font-weight: 400;
+    padding: 0 100px;
+    letter-spacing: 1px;
+}
+.testimonials .text .img{
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    background: url('../img/abc.png') no-repeat ;
+    background-size: contain;
+
+}
+.testimonials .text h3{
+    word-spacing: 2px;
+}
+.testimonials .text h4{
+   font-weight: 500;
+   word-spacing: 2px;
+}
+
+
+
+
+.simple-text{
+    width: 100%;
+    /* border: 2px solid red; */
+    margin-top: 100px;
+    text-align: center;
+}
+.simple-text h1{
+    font-size: 35px;
+}
+.simple-text p{
+    padding: 0 200px;
+    font-weight: 600;
+}
+.simple-text button{
+    margin-top: 40px;
+    padding: 15px 30px;
+    background-color: rgb(42, 42, 129);
+    color: white;
+}
+
+
+
+
+.footer{
+    /* border: 3px solid red; */
+    margin-top: 100px;
+    padding-bottom: 20px;
+    text-align: center;
+    /* padding: 5px 0; */
+    background-color: black;
+}
+.footer h1{
+    font-size: 35px;
+    font-weight: bolder;
+    color: white;
+
+}
+.footer i{
+    font-size: 30px;
+    color: rgb(42, 42, 129);
+    padding: 10px;
+}
+.footer i:hover{
+    color: whitesmoke;
+    font-weight: 40px;
+        cursor: pointer;
+}
+
+
+@media (max-width: 767px) {
+    .about-one .skill p,
+    .about-one .skill h1 {
+        padding: 0 50px;
+    }
+ }
+ @media (max-width: 610px) {
+    .about-one .skill p,
+    .about-one .skill h1 {
+        padding: 0 25px;
+    }
+ }
+ @media (max-width: 500px) {
+    .about-one .html5,
+    .about-one .css3,
+    .about-one .javascript{
+      max-width: 50%;
+    }
+ }
+
+
+
+
